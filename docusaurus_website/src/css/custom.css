@@ -1,0 +1,32 @@
+/* docusaurus_style/global.css */
+
+/* Light Theme */
+:root {
+    /* Colors*/
+  --ifm-color-primary: #69008f;
+  --ifm-color-primary-dark: #5f0081;
+  --ifm-color-primary-darker: #59007a;
+  --ifm-color-primary-darkest: #4a0064;
+  --ifm-color-primary-light: #74009d;
+  --ifm-color-primary-lighter: #7900a4;
+  --ifm-color-primary-lightest: #8900ba;
+
+  /* Other Rules*/
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* Dark Theme */
+[data-theme='dark'] {
+    /* Colors */
+  --ifm-color-primary: #f45cff;
+  --ifm-color-primary-dark: #f239ff;
+  --ifm-color-primary-darker: #f028ff;
+  --ifm-color-primary-darkest: #e300f3;
+  --ifm-color-primary-light: #f67fff;
+  --ifm-color-primary-lighter: #f890ff;
+  --ifm-color-primary-lightest: #fbc4ff;
+
+  /* Other Rules*/
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}

@@ -1,0 +1,74 @@
+docusaurus_config:
+  navbar:
+    title: Navbar Title
+    icon: img/favicon.ico
+    logo: img/rhino_logo.png
+  landing_page:
+    title: My Title
+    tagline: Description
+    features:
+      - title: A Title
+        svg: img/undraw_sharing_knowledge_03vp.svg
+        desc: This is a Description
+      - title: Another Title
+        svg: img/undraw_personal_trainer_re_cnua.svg
+        desc: This is another Description
+      - title: Yet Another Title
+        svg: img/undraw_office_snack_re_l162.svg
+        desc: Final Description
+  style: css/global.css
+
+articles:
+  folders:
+    tutorial:
+      label: Get Started
+      desc: Start using Rhino!
+      position: 1
+      contents:
+        create-your-first-rhino-app:
+          label: My First Rhino App
+          position: 1
+    explanation: 
+      label: Explanation
+      desc: Learn more about Rhino.
+      position: 2
+      contents:
+        what-is-rhino:
+          label: What is Rhino
+          position: 1
+        application-structure:
+          label: App Structure
+          position: 2
+        box-modules:
+          label: Box Modules
+          position: 3
+        rhino-yml:
+          label: Configuration File
+          position: 4
+    how-to:
+      label: Guides
+      desc: Explore advanced Rhino topics.
+      position: 3
+      contents:
+        migrate-app-to-rhino:
+          label: Migrate to Rhino
+          position: 1
+        use-static-files:
+          label: Static Files
+          position: 2
+        write-javascript-code:
+          label: JS Code
+          position: 3
+          
+standalone_pages:
+  - path: my_awesome_pages/awesome_md_page.md
+    label: My Markdown Page
+    position: left
+  - path: my_awesome_pages/awesome_react_page.js
+    label: My React Page
+    position: right
+    
+about:
+  path: my_awesome_pages/about.js
+  label: Another Label to About
+  position: left
